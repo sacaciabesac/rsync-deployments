@@ -6,7 +6,7 @@ RUN apt-get update
 
 
 # Install packages
-RUN apt-get -yq install rsync openssh-client
+RUN apt-get -yq install rsync openssh-client git-core
 
 
 # Label
